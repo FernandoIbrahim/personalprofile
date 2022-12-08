@@ -17,3 +17,8 @@ body{
     border-color: black;
     background-color: red;
 }
+
+.mouse{
+    height: 20px;
+    width: auto;
+}
