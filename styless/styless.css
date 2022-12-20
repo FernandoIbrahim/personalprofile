@@ -3,22 +3,57 @@ body{
 }
 .Start{
     background-color: #F2E7D5;
+    height: 1000px;
+    position: relative;
+    text-align: center;
 }
+.blocksArea{
+    height: 1000px;
+    width: 1000px;
+    background-color: white;
+    position: relative;
+
+}
+
 .box1{
     width: 200px;
     height: 200px;
     border: 8px;
     border-color: black;
     background-color: blue;
+    position: absolute;
+    left: 0px;
 }
 .box2{
     width: 200px;
     height: 200px;
     border-color: black;
     background-color: red;
+    position: absolute;
+    left: 400px;
+    top: 400px;
 }
 
+.box3{
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    background-color: yellow;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+
+
 .mouse{
-    height: 20px;
-    width: auto;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 30px;
+}
+.computer{
+    position: absolute;
+    top: 200px;
+    left: 1px;
 }
