@@ -1,47 +1,13 @@
 body{
-    
+    font-family: verdana, sans-serif; 
 }
+
 .Start{
-    background-color: #F2E7D5;
-    height: 1000px;
     position: relative;
-    text-align: center;
-}
-.blocksArea{
+    left: 4px;
+    background-color: #393E46;
     height: 1000px;
-    width: 1000px;
-    background-color: white;
-    position: relative;
-
-}
-
-.box1{
-    width: 200px;
-    height: 200px;
-    border: 8px;
-    border-color: black;
-    background-color: blue;
-    position: absolute;
-    left: 0px;
-}
-.box2{
-    width: 200px;
-    height: 200px;
-    border-color: black;
-    background-color: red;
-    position: absolute;
-    left: 400px;
-    top: 400px;
-}
-
-.box3{
-    width: 200px;
-    height: 200px;
-    border-color: black;
-    background-color: yellow;
-    position: absolute;
-    left: 200px;
-    top: 200px;
+    width: auto;
 }
 
 
@@ -49,11 +15,63 @@ body{
 .mouse{
     position: absolute;
     left: 400px;
-    top: 200px;
     width: 30px;
 }
 .computer{
     position: absolute;
-    top: 200px;
     left: 1px;
+}
+
+.Nome{
+    top: 100px;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    color: #F7F7F7;
+    text-align: center;
+}
+
+.description{
+    position: relative;
+    margin: 120px 0px 0px 0px;
+    font-size: 140%;
+    color: #6D9886;
+    text-align: center;
+    display: block;
+}
+
+.boximages{
+    width: 55%;
+    display: inline-block;
+    height: 400px;
+    position: relative;
+}
+
+.line{
+    color: rgb(255, 255, 255);
+    width: 2px;
+    background-color: #F7F7F7;
+    position: relative;
+    display: inline-block;   
+    position: relative;
+    top: 100px;
+    margin: 0px 30px 0px 0px;
+}
+
+
+.detalhes{
+    height: 400px;
+    width: 35%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    bottom: 30px;
+    position: relative;
+}
+
+.detalhestx{
+
+    color: #F7F7F7;
+    font-size: 200%;
+    font-family:verdana, sans-serif;
+    text-align: justify; 
 }
