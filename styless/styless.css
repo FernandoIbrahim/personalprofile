@@ -2,27 +2,19 @@ body{
     font-family: verdana, sans-serif; 
 }
 
+ /* Parte Inicial 
+ 
+ 
+ */
 .Start{
     position: relative;
     left: 4px;
     background-color: #393E46;
-    height: 1000px;
+    height: 800px;
     width: auto;
 }
 
-
-
-.mouse{
-    position: absolute;
-    left: 400px;
-    width: 30px;
-}
-.computer{
-    position: absolute;
-    left: 1px;
-}
-
-.Nome{
+.Nome{                  /* Meu nome titulo*/
     top: 100px;
     position: relative;
     margin: 0px 0px 0px 0px;
@@ -31,7 +23,7 @@ body{
     text-align: center;
 }
 
-.description{
+.description{           /* Descrição basica*/
     position: relative;
     margin: 120px 0px 0px 0px;
     font-size: 140%;
@@ -40,38 +32,91 @@ body{
     display: block;
 }
 
-.boximages{
+
+.boximages{         /*Container com imagens ilustrativas*/
     width: 55%;
     display: inline-block;
     height: 400px;
     position: relative;
 }
 
-.line{
+ /*Imagens */    
+.mouse{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: 30px;
+}
+
+.computer{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+
+
+
+.line{    /* Linha de estilização*/
     color: rgb(255, 255, 255);
     width: 2px;
     background-color: #F7F7F7;
     position: relative;
     display: inline-block;   
     position: relative;
-    top: 100px;
+    top: 25px;
     margin: 0px 30px 0px 0px;
 }
 
-
+                /*Container para deixar o texto em sequencia da linha*/
 .detalhes{
     height: 400px;
     width: 35%;
     display: inline-block;
-    vertical-align: text-bottom;
+    vertical-align: text-bottom;    /*Sem ele = BUG*/
     bottom: 30px;
     position: relative;
+    top: 100px;
 }
 
-.detalhestx{
+.detalhestx{  /*Estilização do texto*/
 
     color: #F7F7F7;
     font-size: 200%;
     font-family:verdana, sans-serif;
-    text-align: justify; 
+    text-align: justify;
+}
+
+/* Meio do Site com mais informações */
+
+.MoreInfo{
+    height: 800px;
+}
+
+.WebPages{
+    height: 400px;
+    width: 30%;
+    margin: 100px 10% 100px 5%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    border-radius: 5%;
+
+
+}
+
+.images{
+    height: 50%;
+    position: relative;
+    top: 5%;
+    left: 32%;
+}
+
+.webpagetx{
+    font-size: 26px;
+    color: black;
+}
+
+
+a:link{
+    text-decoration: none;
 }
