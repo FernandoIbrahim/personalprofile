@@ -9,10 +9,11 @@ body{
 .Start{
     position: relative;
     left: 4px;
-    background-color: #393E46;
-    height: 800px;
+    background-color: #ffffff;
+    height: 600px;
     width: auto;
     border-radius: 1%;
+    box-shadow: 15px 5px 15px 0px rgb(44, 44, 44, 0.15);
 }
 
 .Nome{                  /* Meu nome titulo*/
@@ -20,7 +21,7 @@ body{
     position: relative;
     margin: 0px 0px 0px 0px;
     align-items: center;
-    color: #F7F7F7;
+    color: #000000;
     text-align: center;
 }
 
@@ -28,7 +29,7 @@ body{
     position: relative;
     margin: 120px 0px 0px 0px;
     font-size: 140%;
-    color: #6D9886;
+    color: #444444;
     text-align: center;
     display: block;
 }
@@ -38,6 +39,7 @@ body{
     width: 55%;
     display: inline-block;
     height: 400px;
+    bottom: 100px;
     position: relative;
 }
 
@@ -59,14 +61,15 @@ body{
 
 
 .line{    /* Linha de estilização*/
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 2px;
-    background-color: #F7F7F7;
+    background-color: #000000;
     position: relative;
     display: inline-block;   
     position: relative;
-    top: 25px;
     margin: 0px 30px 0px 0px;
+    bottom: 125px
+
 }
 
                 /*Container para deixar o texto em sequencia da linha*/
@@ -77,13 +80,13 @@ body{
     vertical-align: text-bottom;    /*Sem ele = BUG*/
     bottom: 30px;
     position: relative;
-    top: 100px;
+    top: 40px;
 }
 
 .detalhestx{  /*Estilização do texto*/
 
-    color: #F7F7F7;
-    font-size: 200%;
+    color: #000000;
+    font-size: 150%;
     font-family:verdana, sans-serif;
     text-align: justify;
 }
@@ -95,9 +98,9 @@ body{
 }
 
 .WebPages{
-    height: 400px;
+    height: 200px;
     width: 30%;
-    margin: 100px 10% 100px 5%;
+    margin: 100px 9% 100px 9%;
     display: inline-block;
     vertical-align: text-bottom;
     border-radius: 5%;
@@ -119,7 +122,6 @@ body{
 .webpagetx{
     font-size: 26px;
     position: relative;
-    align-items:flex-start;
 }
 
 
