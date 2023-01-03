@@ -12,6 +12,7 @@ body{
     background-color: #393E46;
     height: 800px;
     width: auto;
+    border-radius: 1%;
 }
 
 .Nome{                  /* Meu nome titulo*/
@@ -100,23 +101,51 @@ body{
     display: inline-block;
     vertical-align: text-bottom;
     border-radius: 5%;
-
+    box-shadow: 5px 5px 15px 0px rgb(44, 44, 44, 0.15);
+    text-align: center;
 
 }
 
+.WebPages.center{
+    vertical-align: middle;
+}
+
 .images{
-    height: 50%;
+    height: 70%;
     position: relative;
-    top: 5%;
-    left: 32%;
+    top: 10%;
 }
 
 .webpagetx{
     font-size: 26px;
-    color: black;
+    position: relative;
+    align-items:flex-start;
 }
 
 
-a:link{
-    text-decoration: none;
+a:-webkit-any-link{
+    height: 0px;
+    width: 0px;
+    color: #F7F7F7;
+}
+
+
+
+/*Animação*/
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime = "left"]{
+    transform: translate3d(-50px, 0px ,0px);
+}
+
+[data-anime = "right"]{
+    transform: translate3d( 50px, 0px,0px);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px ,0px);
 }
