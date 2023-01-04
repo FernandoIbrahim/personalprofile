@@ -6,14 +6,18 @@ body{
  
  
  */
+
+ .top{
+    display: flex;
+    justify-content: center;
+ }
 .Start{
     position: relative;
     left: 4px;
     background-color: #ffffff;
     height: 600px;
-    width: auto;
+    width: 1200px;
     border-radius: 1%;
-    box-shadow: 15px 5px 15px 0px rgb(44, 44, 44, 0.15);
 }
 
 .Nome{                  /* Meu nome titulo*/
@@ -46,14 +50,14 @@ body{
  /*Imagens */    
 .mouse{
     position: absolute;
-    top: 25%;
-    left: 60%;
+    top: 35%;
+    left: 550px;
     width: 30px;
 }
 
 .computer{
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 20%;
 }
 
@@ -93,20 +97,35 @@ body{
 
 /* Paginas externas com projetos */
 
+.middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
 .MoreInfo{
     height: 300px;
-    margin: 0px 0px 100px 0px;
+    margin: 100px 0px 100px 0px;
+    width: 720px;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .WebPages{
     height: 200px;
-    width: 30%;
-    margin: 100px 9% 0px 9%;
+    width: 300px;
     display: inline-block;
     vertical-align: text-bottom;
     border-radius: 5%;
     box-shadow: 5px 5px 15px 0px rgb(44, 44, 44, 0.15);
     text-align: center;
+    position: relative;
+    margin: 20px;
 
 }
 
@@ -136,9 +155,9 @@ a:-webkit-any-link{
 
 .topicos{
     font-size: 40px;
-    display: flex;
-    justify-content: none;
-    margin: 0px 0px 0px 100px;
+    position: relative;
+    margin: 0px 0px 0px 20%px;
+    left: 20%;
 }
 
 
